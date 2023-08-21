@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider desde cero</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="carrusel" data-carrusel>
+
+        <button class="carrusel-button prev" data-carrusel-boton="prev">&#8678;</button>
+        <button class="carrusel-button next" data-carrusel-boton="next">&#8680;</button>
+
+        <ul data-slides>
+            <li class="slide" data-active><img src="img/xbox1.jpg" alt="Paisaje #1"></li>
+            <li class="slide"><img src="img/xbox3.jpg" alt="Paisaje #2"></li>
+            <li class="slide"><img src="img/xbox5.jpg" alt="Paisaje #3"></li>
+        </ul>
+
+        <div class="contenedor-botones" data-menu-slider>
+            <button class="boton-menu-slide" data-boton-active></button>
+            <button class="boton-menu-slide"></button>
+            <button class="boton-menu-slide"></button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
